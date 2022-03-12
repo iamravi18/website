@@ -2,196 +2,197 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First HTML project</title>
-    <link rel= "stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    <title>Ravi Kumar</title>
+    <link rel="icon" type="img/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpkdWwNxomUorBZsm8F1fJY0TqRPfgF9MYTQ&usqp=CAU">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<!--     <link rel="stylesheet" type="text/css" href="ravi.css" > -->
-    <h1> Hey! everyone </h1><br>
-    <h2>Welcome to my side</h2>
-    <h3>My self Ravi kumar</h3>
-    <h4>See some video about taj mahal</h4>
-    <embed style="width: 720px; height: 450px; " src="https://www.youtube.com/embed/FBsoXvaKfG8" ></embed>
-    <h5>You first see the famous palace near to aagra</h5>
-    <details>
-        <summary>Places to visit in agra, Top Tourist Spots and Sightseeing in Agra</summary>
-        <ul type="circle">
-            <li>Taj Mahal....</li>
-            <li>Fatehpur Sikri....</li>
-            <li>Agrs Fort....</li>
-            <li>Mehtab Bagh....</li>  
-            <li>Jama Masjid....</li>
-            <li>Chini ka Rauza....</li>
-            <li>Anguri Bagh....</li>
-            <li>Korai village....</li>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="https://rohitsachan.netlify.app/image0.jpeg" alt="">
+        <h3 class="name">Ravi Kumar</h3>
+        <p class="post">Web developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#portfolio">Achievements</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
-       
-    </details>
-    <h4>First of all you fill the travel form</h4>
-    <form action="backend.php">
-    <div>
-        <label for="name" >Name: </label>
-        <input type="text" name="myName" id="name">
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>Hi There !</h3><br>
+    <h1>I'M <span>Ravi Kumar </span></h1>
+    <p>A 20-year-old Indian Freelance Web developer. I'm a weird guy who likes making weird things with web technologies.
+I like to resolve design problems, create smart user interface and imagine useful interaction, developing rich web experiences.</p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Ravi Kumar </h3>
+        <h3> <span> age : </span> 20 </h3>
+        <h3> <span> qualification : </span> Intermediate </h3>
+        <h3> <span> post : </span> Web developer </h3>
+        <h3> <span> language : </span> English, Hindi </h3>
+        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
     </div>
-    <br>
-    <div>
-        <label for="role" >Role: </label>
-        <input type="text" name="myRole" id="role">
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017</span>
+        <h3>Matriculation</h3>
+        <p>Completed Matriculation from High School Belauti, Gaya. which is affiliated to Bihar School Examination Board, Patna (B.S.E.B). </p>
     </div>
-    <br>
-    <div>
-        <label for="phone no.">Phone number:</label>
-         <input type="text" name="myNumber" id="phone no.">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2019</span>
+        <h3>Intermediate</h3>
+        <p>Completed Intermediate from Anugrah Memorial College, Gaya. Which is affliated to Bihar School Examination Board, Patna (B.S.E.B). </p>
     </div>
-    <br>
-    <div>
-        <label for="city">City:</label>
-         <input type="text" name="myCity" id="city">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020-2024</span>
+        <h3>Haldia Institute Of Technology </h3>
+        <p>Currently Pursuing Bachelor Of Technology (B.TECH) From Computer Science & Engineering </p>
     </div>
-    <br>
-    <div>
-        <label for="state">State:</label>
-         <input type="text" name="myState" id="state">
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading">My <span>Achievements</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.NU1wb55PI4JFFMuocpDrjQHaEK%26pid%3DApi&f=1" alt="">
     </div>
-    <br>
-    <div>
-        <label for="country">Country:</label>
-         <select name="myCountry" id="country">
-             <option value="indian">Indians</option>
-             <option value="other">Others country</option>
-         </select>
+
+    <div class="box">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.RxvJjIhW3_DpUjmmo3qXOAHaEo%26pid%3DApi&f=1" alt="">
     </div>
-    <br>
-    <div>
-        <label for="pin">Pin code:</label>
-        <input type="text" name="myPin" id="pin">
+
+    <div class="box">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pzHwrOaoLA7J_qo6_-0sqwHaEK%26pid%3DApi&f=1
+        " alt="">
     </div>
-     <br>
-    <div>
-        <label for="email" >Email: </label>
-        <input type="email" name="myEmail" id="email">
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">Contact info</h3>
+
+        <div class="info">
+            <h3><a href="mailto:ravikrbelauti2002@gmail.com" target=""><i class="fas fa-envelope"></i>Email</a></h3>
+            <h3><a href="https://www.linkedin.com/in/ravi-kumar-653215202/" target=" "><i class="fab fa-linkedin"></i>Linkedin</a></h3>
+            <h3>
+            <a href="https://www.instagram.com/ravi_kr_15/" target=" "><i class="fab fa-instagram-square"></i>Instagram</a></h3>
+
+            <h3> <i class="fas fa-map-marker-alt"></i> Haldia Purba-Medinipur 
+            West Bengal</h3>
+        </div>
+
     </div>
-    <br>
-    <div>
-        D.O.B: <input type="date" name="myD.O.B" >
-    </div>
-    <br>
-    <div>
-        Bonus: <input type="number" name="myBonus" >
-    </div>
-    <br>
-    <div>
-        Are you Eligible: <input type="checkbox" name="myEligiblity" >
-    </div>
-    <br>
-    <div>
-        Gender:  male <input type="radio" name="myGender" >
-        female <input type="radio" name="myGender" >
-        other <input type="radio" name="myGender" >
-    </div>
-    <br>
-    <div>
-        Write about yourself:<br> <textarea name="myText" cols="90" rows="10"></textarea> 
-    </div>
-    <br>
-    <div>
-        <label for="car">Car: </label>
-        <select name="myCar" id="car">
-            <option value="ind">Indica</option>
-            <option value="sft">swift</option>
-            <option value="farri">Farri</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <input type="submit" value="Submit Now">
-        <input type="reset" value="Reset Now">
-    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
     </form>
-    <p>You visit some side Like it's very usefull to you</p><br>
-    <ol type="1">
-       <li> <a href="https://google.com" target="_blank">Go to google</a><br> </li>
-       <li> <a href="https://facebook.com" target="_blank">Go to fecebook</a><br> </li>
-       <li> <a href="https://instagram.com" target="_blank">Go to instagram</a><br> </li> 
-       <li> <a href="https://sarkariresult.com" target="_blank">Go to sarkari result</a><br> </li>
-       <li> <a href="https://linkedin.com" target="_blank">Go to linkedin</a><br> </li>
-       <li> <a href="/Complete web devlapment/body editing.html" target="_blank">body editing</a><br> </li>
-    </ol>
-    <h3>See some nature imageg</h3>
-    <!-- alt only work when image does not sho -->
-    <ul>
-        <li> <h5>This is first image name of this image is <strong><em>Taj mahal</em></strong> </h5> </li>
-        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="you know taj mahal is also know as love staratu">
 
-        <li> <h5>This is second pic it's varies for everytime </h5> </li>
+</div>
 
-        <img src="https://images.unsplash.com/photo-1616392714640-2535b31df0d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="You know Taj mahal is a famous statchu in india">
-        <li> <h5>This is Third pic  </h5> </li>
-        <p> This image change every time when you refresh it. </p>
-        <img src="https://source.unsplash.com/user/erondu/1600x900" alt="This is unknown picture change every time">
-    </ul>
-    <!-- Table -->
-    <h3>HTML Table</h3>
-    <table border="8">
-        <thead>
-            <tr>
-                <th>  Name  </th>
-                <th>  Employee i'd  </th>
-                <th>  Employee Age  </th>
-                <th>  Employee Role  </th>
-            </tr>
-        </thead>
-        <tbody>
-                    <tr>
-                        <td>  Ravi  </td>
-                        <td>  1000000</td>
-                        <td>  19</td>
-                        <td>  Hacker</td>
-                    </tr>  
-                    <tr>
-                        <td>  Rohit  </td>
-                        <td>  345687</td>
-                        <td>  20</td>
-                        <td>  Android & app devlopment</td>
-                    </tr>
-                   <tr>
-                        <td>  Kunal  </td>
-                        <td>  3458475</td>
-                        <td>  23</td>
-                        <td>  Software devlopmer</td>
-                    </tr>
-                    <tr>
-                        <td>  Om  </td>
-                        <td>  733468</td>
-                        <td>  21</td>
-                        <td>  Gate cracker</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>  Ankit  </td>
-                        <td>  674567</td>
-                        <td>  25</td>
-                        <td>  CEO of google</td>
-                    </tr>
-                    <tr>
-                        <td>  Krishna Kundan  </td>
-                        <td>  474569</td>
-                        <td>  21</td>
-                        <td>  CEO of pubg</td>
-                    </tr>
-        </tbody>
-    </table>
-    <h5>If any more details then visit my <em><h2>Youtube link</h2></em></h5>
-    <a href="https://youtube.com/channel/UC1RsVjfwVpVPChLTPFTCWkQ" target="_blank">Go to My Youtube channel</a>
-    <br>
-    <p> You also goes to this type of apps</p>
-    <a href= "http://twitter.com " target="_blank"><i class= " fab fa-twitter fa-5x"></i></a>
-    <a href= "http://instagram.com " target="_blank"><i class= " fab fa-instagram fa-5x"></i></a>
-    <a href= "http://linkedin.com " target="_blank"><i class= " fab fa-linkedin fa-5x"></i></a>
-    <h3>Thank you!</h3>
-    <hr>
-    <br>
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="rohit.js"></script>
+
+
 </body>
 </html>
